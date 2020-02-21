@@ -216,6 +216,154 @@ only uses two functions
 x.index
 x.count
 
+IF CONDITION
+Asking Input
+In [2]:
+ 
+x= input("Enter Your Name")
+Enter Your Name DarkHorse
+In [3]:
+ 
+x
+Out[3]:
+'DarkHorse'
+In [4]:
+ 
+y=int(input("Enter Your Age"))
+Enter Your Age 21
+In [5]:
+ 
+y
+Out[5]:
+21
+In [6]:
+ 
+y=float(input("Enter your weight"))
+Enter your weight 60.6
+
+Y
+
+60.6.
+
+Note: Inside the if condition there must be one tab space which will be our  statement. But if there is no one tab space then it doesn’t lie inside if    statement. E.g. 
+In [7]:
+ 
+ '''
+if condition:
+    print("this inside the if condition")
+print("This is Outside the if condition")
+'''
+Out[7]:
+  In [8]:
+ 
+'''
+if condition:
+    print("This is inside the if condition")
+else:
+    print("this is inside else condition")
+print("This outside all the condition")
+'''
+
+
+Wap to check given Number is odd or Even
+In [14]:
+ 
+x = int(input("Enter the number"))
+if x%2==0:
+    print("It is Even")
+else:
+    print("It is Odd")
+Enter the number2
+It is Even
+Range
+In [15]:
+ 
+list (range(1,11))
+Out[15]:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+In [16]:
+ 
+list (range(1,11,2))
+Out[16]:
+[1, 3, 5, 7, 9]
+Loop
+Loop
+In [18]:
+ 
+x = "Hello"
+for y in x:
+    print(y)
+    
+H
+e
+l
+l
+o
+In [19]:
+ 
+a= [1,2,3,4]
+for i in a:
+    print (i)
+1
+2
+3
+4
+In [24]:
+ 
+z = {'a': 22, 'b': 25, 'c':40}
+for p in z:
+    print (z[p])
+22
+25
+40
+In [25]:
+ 
+q = {'a': 22, 'b': 25, 'c':40}
+for r in q:
+    print(q)
+{'a': 22, 'b': 25, 'c': 40}
+{'a': 22, 'b': 25, 'c': 40}
+{'a': 22, 'b': 25, 'c': 40}
+In [26]:
+ 
+r="Nepal"
+In [27]:
+ 
+for y in range(20):
+    print (r)
+
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+Nepal
+In [30]:
+ 
+for x in range(1,101):
+    if x%3==0 and x%7==0:
+        print(x)
+
+21
+42
+63
+84
+
+
 
 
 
